@@ -1,4 +1,4 @@
-import uuid from 'uuid'
+import uuid from 'uuid';
 
 // ADD_EXPENSE
 export const addExpense = (
@@ -17,17 +17,17 @@ export const addExpense = (
     amount,
     createdAt
   }
-})
+});
 
 // REMOVE_EXPENSE
 export const removeExpense = ({ id } = {}) => ({
   type: 'REMOVE_EXPENSE',
   id
-})
+});
 
 // EDIT_EXPENSE
-export const editExpense = (id, update) => ({
+export const editExpense = (id, updates) => ({
   type: 'EDIT_EXPENSE',
   id,
-  update
-})
+  updates
+});

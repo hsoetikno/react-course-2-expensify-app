@@ -4,7 +4,7 @@ import filtersReducer from '../reducers/filters';
 
 export default () => {
   const store = createStore(
-    combineReducers({ 
+    combineReducers({
       expenses: expensesReducer,
       filters: filtersReducer
     }),
@@ -12,4 +12,4 @@ export default () => {
   );
 
   return store;
-}
+};
