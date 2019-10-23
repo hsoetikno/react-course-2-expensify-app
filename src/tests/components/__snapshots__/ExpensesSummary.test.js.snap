@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render multiple expenses correctly 1`] = `
+<p>
+  Viewing 
+  3
+    expense 
+  s
+  totalling 
+  $1,141.95
+</p>
+`;
+
+exports[`should render single expense correctly 1`] = `
+<p>
+  Viewing 
+  1
+    expense 
+  s
+  totalling 
+  $1.95
+</p>
+`;
